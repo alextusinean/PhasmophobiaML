@@ -60,6 +60,8 @@ namespace MelonLoader.Il2CppAssemblyGenerator
 
         private static void ContactHosts()
         {
+            return;
+        
             if ((HostList == null) || (HostList.Count <= 0))
                 return;
             foreach (HostInfo info in HostList)
